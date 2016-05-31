@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	 <form id="registrationForm" action="#"> 
+    			<p class="contact"><label for="FirstName">FirstName:</label></p> 
+    			<input id="FirstName" name="firstname" placeholder="First Name" required="" tabindex="1" type="text"
+				
+    			 <p class="contact"><label for="LastName">Last Name:</label></p> 
+    			<input id="LastName" name="lastname" placeholder="Last name" required="" tabindex="1" type="text">
+				
+				<p class="contact"><label for="DateofBirth">Date of Birth:</label></p> 
+	            <input type="text" id="txtDate" name="DateofBirth" required="" >
+    			<br>
+				
+				 <p class="contact"><label for="email">Email:</label></p> 
+    			<input id="email" name="email" placeholder="example@domain.com" required="" type="email"> 
+                <p>
+                <p class="contact"><label for="Address">Address:</label></p> 
+            <textarea cols="50" rows="5" name="address" id="message" required="" tabindex="1" type="text"></textarea>
+		</br>
+	
+   <div class="styled-select">
+   <label for="name"  style="text:bold">Martial Status:</label>
+   <select  required name="maritalstatus">
+     <option value="">Select</option>
+      <option value="Married">Married</option>
+      <option value="Unmarried">Unmarried</option>
+	  </select>
+   </div>
+   <br>
+   <div>
+       <button type="submit" class="btn btn-danger">SAVE</button>
+        <button type="reset" class="btn btn-success">Reset</button>
+   </div> 
+   </form> 
+</body>
+</html>
